@@ -75,10 +75,10 @@ def lumberSelection(capacity:int , prices:list[int]):
 if __name__ == "__main__":
     prices :list[int] = [0.25, 1.45, 3.58, 4.40,5.18, 6.58, 8.28]
     wt = [1, 2,4,6,8,10,12]
-    capacity :int = 12
+    capacity :int = 3
     print(lumberSelection(capacity, prices))
 
 
 
-    perms= list(permutations_iterative(wt,12))
-    print(perms)
+    #perms= list(permutations_iterative(wt,12))
+    #print(perms)
