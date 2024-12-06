@@ -1,5 +1,9 @@
+#source:
+#https://github.com/mCodingLLC/VideosSampleCode/blob/master/videos/098_itertools_permutations/permutations.py
+
+
 # Define the available lengths and their prices
-lengths = [12, 10, 8, 6, 4, 2, 1]  # lengths in feet
+#lengths = [12, 10, 8, 6, 4, 2, 1]  # lengths in feet
 prices = {
     1: 0.25,
     2: 1.45,
@@ -12,6 +16,7 @@ prices = {
 
 # Function to find all unique combinations of cuts iteratively
 def find_combinations_iteratively(target_length):
+    lengths = [12, 10, 8, 6, 4, 2, 1] 
     all_combinations = set()  # Use a set to avoid duplicates
     stack = [(target_length, [])]  # Initialize stack with the target length and an empty combination
 
