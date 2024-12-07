@@ -1,3 +1,11 @@
+# Name:  - Ashby Steward-Nolan  and Ashley Jagai
+# Peers:  - N/A
+# References:  
+#https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/
+#https://www.youtube.com/watch?v=jUM_Dpt6yu0&ab_channel=mCoding
+
+
+
 from collections import deque
 
 # Function to perform selection sort on a set
@@ -37,7 +45,7 @@ def selection_sort(arr: set) -> list:
 def lumberSelection(capacity: int, prices: list[int]) -> int:
     """
     ***ASSUMES cuts of wood (length list) will ALWAYS be the same !!***
-    
+
     Solves the lumber selection problem using dynamic programming to maximize profit
     based on a given capacity and price list for various lengths of boards.
 
